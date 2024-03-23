@@ -16,7 +16,7 @@ import hmac
 content=""
 
 if os.getenv("skland_content"):
-    cred = os.getenv("skland_content")
+    content = os.getenv("skland_content")
 if not content:
     print("未填写content")
     exit(0)
